@@ -32,8 +32,7 @@ namespace SoftwareBackup
                         if (textBox4.Text != "")
                         {
                             
-                            //string path = "C:\\SoftwareBackup";
-                            //DirectoryInfo dir = new DirectoryInfo(path);
+                           
                             DirectoryInfo dir = new DirectoryInfo(@"C:\SoftwareBackup");
                             try
                             {
